@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 26 09:44:00 CET 2025
+backend-0.0.1-SNAPSHOT.jar>=
+backend-0.0.1-SNAPSHOT.pom>=
