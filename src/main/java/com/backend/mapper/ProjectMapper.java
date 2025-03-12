@@ -22,6 +22,7 @@ public class ProjectMapper {
         dto.setStartDate(project.getStartDate());
         dto.setEndDate(project.getEndDate());
         dto.setCoverImage(project.getCoverImage());
+        dto.setOtherImages(project.getOtherImages());
         dto.setLiveUrl(project.getLiveUrl());
         dto.setRepositoryUrl(project.getRepositoryUrl());
         dto.setIsPublic(project.getIsPublic());
@@ -43,7 +44,7 @@ public class ProjectMapper {
         project.setStartDate(dto.getStartDate());
         project.setEndDate(dto.getEndDate());
         project.setCoverImage(dto.getCoverImage());
-
+        project.setOtherImages(dto.getOtherImages());
         project.setLiveUrl(dto.getLiveUrl());
         project.setRepositoryUrl(dto.getRepositoryUrl());
         project.setIsPublic(dto.getIsPublic());

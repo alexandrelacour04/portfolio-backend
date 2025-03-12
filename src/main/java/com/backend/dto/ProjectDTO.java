@@ -22,9 +22,12 @@ public class ProjectDTO {
     private Date startDate;
     private Date endDate;
     private String coverImage;
+    private String otherImages;
 
     private String liveUrl;
     private String repositoryUrl;
     private Boolean isPublic;
     private String client;
+
+
 }
