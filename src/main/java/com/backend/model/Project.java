@@ -40,6 +40,7 @@ public class Project {
 
     private String coverImage; // URL ou chemin vers l'image principale
 
+    @Lob
     private String otherImages;
 
     private String liveUrl; // Lien vers la démo en ligne
